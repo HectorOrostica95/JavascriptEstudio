@@ -8,7 +8,7 @@
 */
 
 
-//var texto = 'Hola Mundo, 12345.';
+var texto = 'Hola Mundoooo, 12345.';
 
 /*
 Busca en el principio los dos primeros caracteres 
@@ -62,7 +62,9 @@ Muestra todas las posiciones en donde se encuentra la letra o
 var arr = texto.match( /o?/g );
 
 */
+//Busca la posicion de la letro "o" pero esta aparece en las posiciones
 //var arr = texto.match( /o*/g );
+//console.log(arr);
 /* 
 Busca todas las ocurrencias donde se presente la letra "o" dos veces 
 var arr = texto.match( /o{2}/g );
@@ -83,6 +85,7 @@ var texto = 'La Respuesta de la suma es: 45 + 60 = 105';
 console.log(texto);
 //Separa la palabra de dos en dos 
 //var arr  = texto.match(/\w{2,2}/ig);
+//var arr  = texto.match(/\d{1,}/ig);
 var arr  = texto.match(/\d{1,}|respuesta/ig);
 
 
